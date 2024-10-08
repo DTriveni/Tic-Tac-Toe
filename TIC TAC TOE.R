@@ -220,4 +220,4 @@ play_Tic_Tac_Toe=function(){
     }
   }
 }
-play_Tic_Tac_Toe
+play_Tic_Tac_Toe()
