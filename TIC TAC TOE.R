@@ -216,6 +216,7 @@ play_Tic_Tac_Toe=function(){
        ttt=stratergy(ttt)
        print(ttt)
      }
+     print(ttt)  
     }
   }
 }
