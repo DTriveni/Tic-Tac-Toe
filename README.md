@@ -1,9 +1,23 @@
-This project is a `Tic-Tac-Toe Game implemented in R`, where a human player competes against the computer. The game logic includes various functions to check for wins, blocks, and draws, ensuring a fair and competitive experience. Key features include:
+# Tic-Tac-Toe Game in R
 
-**User & Computer Moves:** Users input their moves, and the computer uses strategic logic to play its turns.  
-**Winning Logic:** Functions (compwin and userwin) check if either player has won by aligning three symbols in a row, column, or diagonal.  
-**Blocking & Strategy:** The computer blocks potential winning moves by the player and applies a strategy to maximize its chances of winning.  
-**Draw Condition:** If all positions are filled and no player has won, the game is declared a draw.  
-**Interactive Play:** The game prompts users for valid inputs and updates the board dynamically after each move.  
+This is a **Tic-Tac-Toe** game built in R where you play against the computer. The game uses standard 3x3 Tic-Tac-Toe rules, where players alternate turns placing their symbols (user: "x", computer: "o") on the grid. The goal is to align three of your symbols either horizontally, vertically, or diagonally before your opponent.
 
-This project demonstrates the implementation of decision-making algorithms and user interaction in a classic `Tic-Tac-Toe Game`.
+## Key Features:
+- Interactive gameplay where the user plays as "x" and the computer plays as "o."
+- The computer uses a strategic algorithm to maximize its chances of winning or blocking the player.
+- The game checks for winning conditions, draws, and available moves after each turn.
+- Input validation ensures players can only choose valid moves.
+
+## How to Play:
+1. At the start of the game, the user is assigned the symbol "x" and the computer is "o."
+2. The user is prompted to enter their move as coordinates in the format `row,column` (e.g., `1,2`).
+3. After the user moves, the computer evaluates the board and makes its move.
+4. The game continues until one player wins or the board is full (draw).
+
+## Usage:
+1. **Download** or copy the code into an R script or R console.
+2. Call the function `play_Tic_Tac_Toe()` to start the game.
+3. Follow the prompts to input your moves.
+4. The game will announce the result (win, loss, or draw) when it concludes.
+
+This simple R implementation allows for a fun, turn-based interactive game with a clear AI strategy for the computer player!
